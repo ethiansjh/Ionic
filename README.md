@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Github Ionic
 This is a sample Ionic 2 App that consumes the github API. To follow instructions on how to build it, read this article [Build a mobile app with angular 2 and ionic 2](https://scotch.io/tutorials/build-a-mobile-app-with-angular-2-and-ionic-2)
 
@@ -52,3 +53,6 @@ MIT
 =======
 # Ionic practices (make github user search function)
 >>>>>>> 8fffeabe16d9971d125f9b52940366b4eb1cf0d9
+=======
+# Ionic2  practices (make github user search function)
+>>>>>>> 0818fd9cbaf206bb74fd7dd551bf06d0a834f3b9
