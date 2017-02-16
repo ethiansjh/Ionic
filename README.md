@@ -1,1 +1,1 @@
-# Ionic practices (make github user search function)
+Ionic2  practices (make github user search function)
