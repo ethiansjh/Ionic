@@ -81191,7 +81191,7 @@ var UserDetailsPage = (function () {
 }());
 UserDetailsPage = __decorate$110([
     Component({
-        selector: 'page-user-details',template:/*ion-inline-start:"/Users/jay/githubtest/githubionic/src/pages/user-details/user-details.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>{{login}}\'s details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding >\n  <ion-list>\n    <ion-item>\n      <ion-label>Followers</ion-label>\n      <ion-badge item-right>{{user?.followers}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Following</ion-label>\n      <ion-badge item-right>{{user?.following}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Repos</ion-label>\n      <ion-badge item-right>{{user?.public_repos}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Gists</ion-label>\n      <ion-badge item-right>{{user?.public_gists}}</ion-badge>\n    </ion-item>\n  </ion-list>    \n</ion-content>\n'/*ion-inline-end:"/Users/jay/githubtest/githubionic/src/pages/user-details/user-details.html"*/
+        selector: 'page-user-details',template:/*ion-inline-start:"/Users/jay/Ionic/Github search users app/src/pages/user-details/user-details.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>{{login}}\'s details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding >\n  <ion-list>\n    <ion-item>\n      <ion-label>Followers</ion-label>\n      <ion-badge item-right>{{user?.followers}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Following</ion-label>\n      <ion-badge item-right>{{user?.following}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Repos</ion-label>\n      <ion-badge item-right>{{user?.public_repos}}</ion-badge>\n    </ion-item>\n     <ion-item>\n      <ion-label>Gists</ion-label>\n      <ion-badge item-right>{{user?.public_gists}}</ion-badge>\n    </ion-item>\n  </ion-list>    \n</ion-content>\n'/*ion-inline-end:"/Users/jay/Ionic/Github search users app/src/pages/user-details/user-details.html"*/
     }),
     __metadata$3("design:paramtypes", [NavController, NavParams, GithubUsers])
 ], UserDetailsPage);
@@ -81237,7 +81237,7 @@ var UsersPage = (function () {
 }());
 UsersPage = __decorate$108([
     Component({
-        selector: 'page-users',template:/*ion-inline-start:"/Users/jay/githubtest/githubionic/src/pages/users/users.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Users\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-searchbar (input)="search($event)"></ion-searchbar>\n    <ion-list>\n    <button ion-item *ngFor="let user of users" (click)="goToDetails(user.login)">\n      <ion-avatar item-left>\n        <img [src]="user.avatar_url">\n      </ion-avatar>\n      <h2>{{ user.login }}</h2>\n      <ion-icon name="arrow-forward" item-right></ion-icon>\n    </button>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/jay/githubtest/githubionic/src/pages/users/users.html"*/
+        selector: 'page-users',template:/*ion-inline-start:"/Users/jay/Ionic/Github search users app/src/pages/users/users.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Users\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-searchbar (input)="search($event)"></ion-searchbar>\n    <ion-list>\n    <button ion-item *ngFor="let user of users" (click)="goToDetails(user.login)">\n      <ion-avatar item-left>\n        <img [src]="user.avatar_url">\n      </ion-avatar>\n      <h2>{{ user.login }}</h2>\n      <ion-icon name="arrow-forward" item-right></ion-icon>\n    </button>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/jay/Ionic/Github search users app/src/pages/users/users.html"*/
     }),
     __metadata$1("design:paramtypes", [NavController, GithubUsers])
 ], UsersPage);
@@ -81262,7 +81262,7 @@ var ReposPage = (function () {
 }());
 ReposPage = __decorate$111([
     Component({
-        selector: 'page-repos',template:/*ion-inline-start:"/Users/jay/githubtest/githubionic/src/pages/repos/repos.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Repos\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Repos view page</h3>\n</ion-content>\n'/*ion-inline-end:"/Users/jay/githubtest/githubionic/src/pages/repos/repos.html"*/
+        selector: 'page-repos',template:/*ion-inline-start:"/Users/jay/Ionic/Github search users app/src/pages/repos/repos.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Repos\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Repos view page</h3>\n</ion-content>\n'/*ion-inline-end:"/Users/jay/Ionic/Github search users app/src/pages/repos/repos.html"*/
     }),
     __metadata$4("design:paramtypes", [NavController])
 ], ReposPage);
@@ -81293,7 +81293,7 @@ var OrganisationsPage = (function () {
 }());
 OrganisationsPage = __decorate$112([
     Component({
-        selector: 'page-organisations',template:/*ion-inline-start:"/Users/jay/githubtest/githubionic/src/pages/organisations/organisations.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Organisations\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Organisations view page</h3>\n</ion-content>'/*ion-inline-end:"/Users/jay/githubtest/githubionic/src/pages/organisations/organisations.html"*/
+        selector: 'page-organisations',template:/*ion-inline-start:"/Users/jay/Ionic/Github search users app/src/pages/organisations/organisations.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button icon-only menuToggle>\n      <ion-icon name="menu"></ion-icon> \n    </button>\n    <ion-title>\n      Organisations\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Organisations view page</h3>\n</ion-content>'/*ion-inline-end:"/Users/jay/Ionic/Github search users app/src/pages/organisations/organisations.html"*/
     }),
     __metadata$5("design:paramtypes", [NavController])
 ], OrganisationsPage);
@@ -81341,7 +81341,7 @@ __decorate$1([
     __metadata("design:type", Nav)
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate$1([
-    Component({template:/*ion-inline-start:"/Users/jay/githubtest/githubionic/src/app/app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/Users/jay/githubtest/githubionic/src/app/app.html"*/
+    Component({template:/*ion-inline-start:"/Users/jay/Ionic/Github search users app/src/app/app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/Users/jay/Ionic/Github search users app/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [Platform,
         MenuController])
