@@ -1,3 +1,3 @@
-# Ionic 2 tutorial : Develop a weather application
+# Ionic 2 : Develop a weather application
 
 
